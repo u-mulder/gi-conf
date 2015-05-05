@@ -1,0 +1,31 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    puld = pull origin dev
+    pulm = pull origin master
+    pulld = pull origin dev
+    pullm = pull origin master
+    pusd = push origin dev
+    pusm = push origin master
+    pushd = push origin dev
+    pushm = push origin master
+    fd = pull origin dev
+    td = push origin dev
+    fm = pull origin master
+    tm = push origin master
+    gob = checkout -b
+    god = checkout dev
+    gom = checkout master
+    sh = stash
+    sha = stash apply
+    mx = merge -Xignore-all-space
+    plo = pull origin
+    pso = push origin
+    df = diff
+    dfs = diff --staged
+    ad = add
+    a = add
+[color]
+    ui = true
