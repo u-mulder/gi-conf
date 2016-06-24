@@ -7,25 +7,42 @@
     pulm = pull origin master
     pulld = pull origin dev
     pullm = pull origin master
+    pullr = pull origin release
+    pulr = pull origin release
     pusd = push origin dev
     pusm = push origin master
     pushd = push origin dev
     pushm = push origin master
+    pushr = push origin release
+    pusr = push origin release
     fd = pull origin dev
     td = push origin dev
     fm = pull origin master
     tm = push origin master
+    fr = pull origin release
+    tr = push origin release
     gob = checkout -b
     god = checkout dev
     gom = checkout master
+    gor = checkout release
     sh = stash
     sha = stash apply
+    mg = merge
     mx = merge -Xignore-all-space
+    mema = merge master
     plo = pull origin
     pso = push origin
     df = diff
     dfs = diff --staged
+    dfis = diff --ignore-space-change
     ad = add
     a = add
+    rbi = rebase -i
+    ns = log --name-status
+    lg = log --graph
+    lgns = log --graph --name-status
+    showis = show --ignore-space-change
 [color]
     ui = true
+[credential]
+    helper = cache --timeout=86400
