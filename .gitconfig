@@ -1,5 +1,6 @@
 [alias]
     st = status
+    sts = status --short
     ci = commit
     cia = commit --amend
     co = checkout
@@ -28,6 +29,7 @@
     gor = checkout release
     sh = stash
     sha = stash apply
+    shp = stash pop
     mg = merge
     mx = merge -Xignore-all-space
     mema = merge master
@@ -46,6 +48,7 @@
     rebm = rebase master
     rema = rebase master
     addp = add --patch
+    ap = add --patch
 [color]
     ui = true
 [credential]
