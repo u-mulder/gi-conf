@@ -42,6 +42,7 @@
     a = add
     addp = add --patch
     ap = add --patch
+    au = add -u .
     ns = log --name-status
     lg = log --graph
     lgns = log --graph --name-status
