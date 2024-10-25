@@ -50,6 +50,8 @@
     rbi = rebase -i
     rebm = rebase master
     rema = rebase master
+    rea = rebase --abort    
+    rec = rebase --continue
     rh = reset HEAD~
     m1 = reset HEAD~  # m1 - minus 1
     cp = cherry-pick
